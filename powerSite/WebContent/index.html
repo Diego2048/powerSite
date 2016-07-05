@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<link rel="icon" href="assets/favico.ico">
+<link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+<title>万能网站</title>
+<style type="text/css">
+	.form-signin {
+  max-width: 330px;
+  padding: 15px;
+  margin: 0 auto;
+}
+	body{
+/* 	  background: url(assets/Penguins.jpg); */
+		background:#5bc0de;
+		height:80%;
+	}
+	.container{
+		margin-top:60px;
+		background:#ffffff;
+		width:30%;
+		height:500px;
+		float:right;
+	}
+</style>
+</head>
+<body>
+	<div class="main" style="width:80%;">
+		<div class="container">
+			<form class="form-signin">
+				<h2>请登录</h2>
+				</br>
+				<input type="email" class="form-control" id="loginEmail" placeholder="请输入邮箱" required="required" autofocus="autofocus" >
+				</br>
+				<input type="password" class="form-control" id="loginPassword" placeholder="请输入密码" required="required">
+				</br>
+				<div class="checkbox">
+					<label>
+						<input type="checkbox" value="记住我">记住我
+					</label>
+					<a href="#" style="float: right;">忘记密码</a>
+				</div>
+				</br>
+				<button class="btn btn-lg btn-success btn-block" type="submit">登录</button>
+			</form>
+			<div class="form-signin">
+				<label class="bg-success text-success">第三方帐号登录</label></br>
+				<img alt="新浪微博" src="assets/favico.ico">
+				<img alt="百度账号" src="assets/favico.ico">
+				<img alt="腾讯QQ" src="assets/favico.ico">
+				<img alt="github账号" src="assets/favico.ico"></br></br>
+				<label class="text-danger">还没有万能网站帐号？</label><a href="#">立即注册</a>
+			</div>
+		</div>
+	</div>
+</body>
+<script type="text/javascript" src="assets/jquery/jquery-1.8.0.min.js"></script>
+<script type="text/javascript" src="assets/bootstrap/js/bootstrap.min.js"></script>
+</html>
