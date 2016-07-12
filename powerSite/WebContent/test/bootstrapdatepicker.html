@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>div in line</title>
+<link rel="stylesheet" href="../assets/bootstrap/css/bootstrap.min.css">
+<link rel="stylesheet" href="../assets/bootstrap/css/bootstrap-datetimepicker.min.css">
+<style type="text/css">
+	.tab_left{
+		background: #eeeeee;
+		width:50%;
+		height:50%;
+		float:left;
+	}
+	.tab_right{
+		background: #aabbcc;
+		width:50%;
+		height:50%;
+		float:right;
+	}
+</style>
+</head>
+<body>
+	<div class="tab">
+		<div class="tab_left">
+			<h1>左边</h1>
+		</div>
+		<div class="tab_right">
+			<h1>右边</h1>
+		</div>
+	</div>
+	<div class="content">
+		<input type="text" class="datetimepicker" data-date-autoclose=true 
+		data-language="zh-CN" 
+			data-date-format="yyyy-mm-dd hh:ii" data-provide="datetimepicker" />
+		<input type="text" class="datetimepicker"  id="datetimepicker" 
+			data-date-format="yyyy-mm-dd hh:ii" data-provide="datetimepicker">
+	</div></br>
+</body>
+<script type="text/javascript" src="../assets/jquery/jquery-1.9.1.min.js"></script>
+<script type="text/javascript" src="../assets/bootstrap/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="../assets/bootstrap/js/bootstrap-datetimepicker.min.js"></script>
+<script type="text/javascript" src="../assets/bootstrap/js/locales/bootstrap-datetimepicker.zh-CN.js"></script>
+<script type="text/javascript" src="bootstrapdatepicker.js"></script>
+<script type="text/javascript">
+window.onload=function (){
+	$('.datetimepicker').datetimepicker({
+	    language:'zh-CN' //将时间显示改成中文
+	});
+};
+</script>
+</html>
