@@ -6,7 +6,8 @@
 }
 	body{
 /* 	  background: url(assets/Penguins.jpg); */
-		background:#5bc0de;
+/* 		background:#5bc0de; */
+		background-image: url("../../assets/main_bg.png");
 		height:80%;
 	}
 	.container{
@@ -21,3 +22,44 @@
 /* 		margin-top: 10px; */
 /* 		float: right; */
 	}
+.sina{
+	background-position: 0 0;
+	display: inline-block;
+	background-image: url("../../assets/login-third-party.png");
+	background-repeat: no-repeat;
+	margin-right: 5px;
+	width: 32px;
+	height: 32px;
+}
+
+.baidu{
+	background-position: -74px 0;
+	display: inline-block;
+	background-image: url("../../assets/login-third-party.png");
+	background-repeat: no-repeat;
+	margin-right: 5px;
+	width: 32px;
+	height: 32px;
+	
+}
+
+.qq{
+	background-position: -112px 0;
+	display: inline-block;
+	background-image: url("../../assets/login-third-party.png");
+	background-repeat: no-repeat;
+	margin-right: 5px;
+	width: 32px;
+	height: 32px;
+	
+}
+
+.github{
+	background-position: -186px 0;
+	display: inline-block;
+	background-image: url("../../assets/login-third-party.png");
+	background-repeat: no-repeat;
+	margin-right: 5px;
+	width: 32px;
+	height: 32px;	
+}
